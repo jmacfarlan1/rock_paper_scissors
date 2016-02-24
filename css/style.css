@@ -1,0 +1,103 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background: black;
+  color:#fff;
+  margin: 3em;
+}
+strong {
+  text-decoration: underline;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: lighter;
+  margin: 20px 0 40px 0;
+}
+#reset {
+  position: fixed;
+  top:20px;
+  right:20px;
+  background-color: #222;
+  padding:7px 12px;
+  border:0;
+  color:#fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+#reset:hover {
+  background-color: red;
+}
+.choices {
+  padding:80px;
+}
+.choices button {
+  background: none;
+  color: #fff;
+  border: none;
+  padding: 20px 50px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: 0;
+}
+.choices button:hover {
+  background: #111;
+}
+.choices .icon {
+  display: block;
+  background-size: 80%;
+  width:65px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.choices #rock .icon {
+  background:url('../images/rock.png') no-repeat center center;
+}
+.choices #paper .icon {
+  background:url('../images/paper.png') no-repeat center center;
+}
+.choices #scissors .icon {
+  background:url('../images/scissors.png') no-repeat center center;
+}
+.scoreboard {
+  margin: auto;
+  text-align: center;
+}
+.scoreboard h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard .score-wrap {
+  display: inline-block;
+  border: 1px solid lime;
+  width:60px;
+  padding:20px 10px;
+}
+.scoreboard .score {
+  font-size: 50px;
+  line-height: 40px;
+}
+.scoreboard .user {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  display: block;
+}
+#status {
+  margin-top: 20px;
+}

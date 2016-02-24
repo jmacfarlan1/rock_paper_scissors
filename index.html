@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Your description goes here">
+      <meta name="keywords" content="one, two, three">
+
+    <title>Rock, Paper, or Scissors</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </head>
+  <body>
+
+  <h1>Rock. Paper. Scissors.</h1>
+
+  <!-- <p>A steam-powered bot has challenged you to a game. <strong>Rock</strong> beats <strong>scissors</strong>, <strong>scissors</strong> beats <strong>paper</strong>, and <strong>paper</strong> beats <strong>rock</strong>.</p> -->
+
+  <button id="reset">Start Over</button>
+
+  <h2>Choose Wisely</h2>
+  <div class="choices">
+
+    <button id="rock">
+      <span class="icon"></span>
+      <span class="type">Rock</span>
+    </button>
+
+    <button id="paper">
+      <span class="icon"></span>
+      <span class="type">Paper</span>
+    </button>
+
+    <button id="scissors">
+      <span class="icon"></span>
+      <span class="type">Scissors</span>
+    </button>
+
+  </div>
+    
+  </div>
+
+  <div class="scoreboard">
+    <h2>Scoreboard</h2>
+    <div class="score-wrap">
+      <span class="score" id="humanScore">0</span>
+      <span class="user">You</span>
+    </div>
+    <div class="score-wrap">
+      <span class="score" id="computerScore">0</span>
+      <span class="user">Bot</span>
+    </div>
+
+  <div id="status"></div>
+
+  <!-- main.js -->
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
+
